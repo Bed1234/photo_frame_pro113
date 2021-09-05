@@ -10,6 +10,8 @@ function setup() {
 function draw() {
     image(video, 160, 80, 320, 300);
 
+
+
     rect(90, 28, 460,20);
     rect(90, 420, 460, 20);
     rect(90,50,20,380);
@@ -82,5 +84,5 @@ function draw() {
 
 
 function take_snapshot() {
-    save('My_phrame_Image.png');
+    save('My_frame_Image.png');
 }

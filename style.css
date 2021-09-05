@@ -1,5 +1,7 @@
 body{
     text-align:center;
+    background-image: url("background.jpg");
+
 }
 
 b{
@@ -17,5 +19,6 @@ h3{
     height: 30px;
     width: 150px;
     border-radius: 20px;
-    margin-bottom: 300px;
+    margin-bottom: 30px;
 }
+
