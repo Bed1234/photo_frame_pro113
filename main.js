@@ -1,5 +1,5 @@
 function setup() {
-    canvas = createCanvas(680,700);
+    canvas = createCanvas(600,480);
     canvas.position(350,150);
     video = createCapture(VIDEO);
     video.hide();
@@ -8,7 +8,7 @@ function setup() {
 
 
 function draw() {
-    image(video, 160, 80, 320, 300);
+    image(video, 100, 40, 450,400);
 
 
 
